@@ -48,7 +48,7 @@
     </build>
 
     <properties>
-        <my.referenced.version>1.4</my.referenced.version>
+        <my.referenced.version>2.7</my.referenced.version>
     </properties>
 
     <dependencies>
