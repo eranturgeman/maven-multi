@@ -47,10 +47,6 @@
         </plugins>
     </build>
 
-    <properties>
-        <my.referenced.version>1.4</my.referenced.version>
-    </properties>
-
     <dependencies>
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -72,7 +68,7 @@
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
-            <version>${my.referenced.version}</version>
+            <version>1.4</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
