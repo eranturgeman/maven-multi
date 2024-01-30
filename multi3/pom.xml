@@ -10,7 +10,22 @@
     <packaging>war</packaging>
     <name>Multi 3</name>
 
+    <!-- my addition -->
+    <properties>
+        <my.dependency.version>6.4.0</my.dependency.version>
+    </properties>
+    <!-- my addition -->
+
+
     <dependencies>
+        <!-- my addition -->
+        <dependency>
+            <groupId>com.fasterxml.woodstox</groupId>
+            <artifactId>woodstox-core</artifactId>
+            <version>${my.dependency.version}</version>
+        </dependency>
+        <!-- my addition -->
+
         <!-- depends on another project (should include transitive) -->
         <dependency>
             <groupId>${project.groupId}</groupId>
